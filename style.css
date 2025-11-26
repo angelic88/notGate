@@ -1,0 +1,93 @@
+/* ---------- General Page Setup ---------- */
+body {
+  margin: 0;
+  font-family: 'Comic Neue', cursive;
+  background: linear-gradient(to bottom right, #ffecd2, #fcb69f);
+  color: #333;
+  line-height: 1.6;
+}
+
+/* ---------- Navbar ---------- */
+.navbar {
+  background-color: #ffb347;
+  padding: 15px 0;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  border-bottom: 3px solid #ffcc33;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.navbar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar li {
+  display: inline;
+  margin: 0 15px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.1em;
+  transition: color 0.3s, transform 0.3s;
+}
+
+.navbar a:hover {
+  color: #004d40;
+  transform: scale(1.1);
+}
+
+/* ---------- Header ---------- */
+header {
+  text-align: center;
+  margin-top: 40px;
+}
+
+header h1 {
+  font-size: 2.7em;
+  color: #ff7043;
+  text-shadow: 2px 2px #ffe082;
+}
+
+/* ---------- Main Section ---------- */
+main {
+  max-width: 900px;
+  background: rgba(255, 255, 255, 0.9);
+  margin: 50px auto;
+  padding: 40px;
+  border-radius: 25px;
+  box-shadow: 0 6px 14px rgba(0,0,0,0.2);
+}
+
+/* Image centered, text left-aligned */
+.main-image {
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.25);
+  margin: 0 auto 25px;
+  border: 3px solid #ffb347;
+}
+
+main p {
+  text-align: justify;
+  font-size: 1.05em;
+}
+
+/* ---------- Footer ---------- */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #ffb347;
+  color: white;
+  font-weight: bold;
+  margin-top: 60px;
+  border-top: 3px solid #ffcc33;
+}
